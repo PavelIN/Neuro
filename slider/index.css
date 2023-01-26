@@ -1,0 +1,18 @@
+.slider{
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;
+    background-color: aqua;
+    position: relative;
+}
+
+.left{
+    position: absolute;
+    top:50%;
+}
+
+.right{
+    position: absolute;
+    left:91.7%;
+    top:50%;
+}
