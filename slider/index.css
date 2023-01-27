@@ -1,8 +1,8 @@
 .slider{
+    transition: 500ms;
     margin: 0 auto;
     width: 700px;
     height: 350px;
-    background-color: aqua;
     position: relative;
 }
 
@@ -16,3 +16,20 @@
     left:91.7%;
     top:50%;
 }
+
+.slider__items {
+    counter-reset: slide;
+  }
+
+  .image {
+    display: none;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0;
+  }
+
+  .block{
+    display: block;
+  }
+  

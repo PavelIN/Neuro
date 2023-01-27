@@ -1,7 +1,8 @@
-import Slider from "Slider.js";
-const container = document.querySelector('.container')
+import Slider from "./Slider.js";
+const slideriItems = document.querySelector('.slider__items')
 const left = document.querySelector('.left')
 const right = document.querySelector('.right')
+
  
 let sliderImages = [
     {
@@ -18,4 +19,15 @@ let sliderImages = [
  },
 ] 
 
-const sliders = new Slider(sliderImages,container,left,right)
+ function generAte(){
+   let img = document.createElement('img');
+   img.classList.add('image')
+ return img;
+ }
+
+ 
+
+const sliders = new Slider(sliderImages,slideriItems,right,left,generAte)
+
+sliders.renderItems()
+

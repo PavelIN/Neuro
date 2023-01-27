@@ -1,0 +1,16 @@
+.element{
+    width:200px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s ease-in;
+}
+
+.element_hiiden{
+    visibility:visible;
+    opacity: 1;
+    transition: visibility 1s, opacity 1s ease-in;
+}

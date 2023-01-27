@@ -1,0 +1,10 @@
+.webm{
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+
+.webm__video{
+  display: block;
+  width: 100%;
+}
