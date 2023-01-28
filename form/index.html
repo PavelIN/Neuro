@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <form class="form" name="add-form" >
+  <form class="form" name="add-form" novalidate>
     <fieldset class="form__set">
         <input id="name" class="form__input form__input_item_name" type="text" name="name"
             placeholder="имя" required minlength="3" maxlength="30">
@@ -19,7 +19,7 @@
             placeholder="пароль" required minlength="8" maxlength="40" pattern="(?=.*[0-9])(?=.*[A-Z]).*">
         <span class="password-error form__input-error"></span>
         <input id="password" class="form__input form__input_item_password" type="password" name="password"
-            placeholder="повторите пароль" required minlength="8" maxlength="40">
+            placeholder="повторите пароль" required minlength="8" maxlength="40" pattern="(?=.*[0-9])(?=.*[A-Z]).*">
         <span class="password-error form__input-error"></span>
         <button class="form__save" type="submit">Сохранить</button>
     </fieldset>
