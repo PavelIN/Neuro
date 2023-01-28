@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>figures</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <form class="form" name="add-form" >
+    <fieldset class="form__set">
+        <input id="name" class="form__input form__input_item_name" type="text" name="name"
+            placeholder="имя" required minlength="3" maxlength="30">
+        <span class="form__input-error name-error"></span>
+        <input id="tel" class="form__input form__input_item_namber" type="tel" name="tel"
+            placeholder="номер телефона" required minlength="10" maxlength="15">
+        <span class="tel-error form__input-error"></span>
+        <input id="password" class="form__input form__input_item_password" type="password" name="password"
+            placeholder="пароль" required minlength="8" maxlength="40" pattern="(?=.*[0-9])(?=.*[A-Z]).*">
+        <span class="password-error form__input-error"></span>
+        <input id="password" class="form__input form__input_item_password" type="password" name="password"
+            placeholder="повторите пароль" required minlength="8" maxlength="40">
+        <span class="password-error form__input-error"></span>
+        <button class="form__save" type="submit">Сохранить</button>
+    </fieldset>
+</form>
+ <script type="module" src="index.js"></script>
+</body>
+</html>
