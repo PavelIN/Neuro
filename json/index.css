@@ -1,3 +1,21 @@
 .users__button-none{
     display: none;
 }
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.user{
+    box-shadow: 10px 5px 5px rgb(47, 33, 136);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 230px;
+    height: 100px;
+    background-color: aqua;
+    margin: 8px;
+}
